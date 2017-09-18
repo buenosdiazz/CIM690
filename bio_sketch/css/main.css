@@ -1,0 +1,78 @@
+ 
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #574c4c;
+}
+
+#content{
+     background-color: #fff;
+}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+
+#hero, .layer {
+  min-height: 800px;
+}
+
+.layer-1 {
+  background-image: url(https://image.ibb.co/d4ekEQ/layer2_01.png);
+    background-position: top;
+}
+
+
+.layer-2 {
+  background-image: url(https://image.ibb.co/ediUr5/layer1_01.png);
+    background-position: top;
+}
+
+.layer-3 {
+   background-image: url(https://image.ibb.co/heJnuQ/layer3_01.png);
+    background-position: bottom;
+} 
+
+.layer-4 {
+   background-image: url(https://image.ibb.co/kVDb4Q/Untitled_4_01.png);
+   background-position: bottom;
+} 
+
+
+h2 { 
+    color: bisque;
+}
+
+a {
+  color: blue;
+    text-decoration: none;
+}
+
+.hellow  {
+    color: yellowgreen;
+}
+
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+*/
